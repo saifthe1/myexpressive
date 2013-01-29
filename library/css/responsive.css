@@ -1,0 +1,194 @@
+/* Media Queries */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/* all */
+.wraper, .social_list, .footer footer {width:770px;}	
+/* Home page */
+.content_block h3, .content_block h4 {padding:0 0 18px 0;}
+.main_slider, .main_slider ul li {height:290px;}
+.main_slider ul li img {width:100%;}
+.main_slider ul li p {width:100%;}
+.services_list ul li {width:170px;padding:175px 26px 40px 0;}
+.services_list ul li .top_bg_wrap {width:180px;}
+.prj_block .prj_list {float:left;width:570px;}
+.prj_block .prj_list ul li.last {display:none;}
+.client_slider .slider_wrap {width:400px;overflow:hidden;}
+.client_slider .bx-prev, .client_slider .bx-next {left:0px;top:80px;}
+.client_slider .bx-next {left:30px;}
+/* About page */
+.team_block ul li {width:140px;padding-right:15px;}
+.team_block ul li img {padding:5px;width:130px;}
+.team_block ul li ul li {width:auto;padding-right:5px;}
+.team_block ul li ul li img {width:auto;}
+.testimonials_block .slider_wrap .slider_test {width:613px;padding:45px 47px 3px 110px;}
+/* Contact page */
+.contact_left {float:left;width:440px;}
+.contact_right {float:left;width:297px;}
+.contact_left .contact_form p input {width:170px;}
+.contact_left .contact_form p textarea {width:410px;}
+/* Portfolio page */
+.submenu ul li {margin:0 25px 0 0;}
+.portfolio_list {width:768px;}
+/* Blog page */
+.left_column {width:530px;}
+.post_block a img {width:100%;}
+.recent_comment ul li .desc {width:435px;}
+.recent_comment ul li ul li .desc {width:340px;}
+.leave_comment p input {width:200px;}
+.leave_comment p textarea {width:500px;}
+.right_column {width:207px;}
+.right_column .cat_list:before, .right_column .arch_list:before, .right_column .adv_list:before {width:207px;}
+.right_column .arch_list ul li {margin-right:30px;}
+/* footer */
+.footer {padding-bottom:10px;}
+.footer .flickr {width:260px;padding-right:10px;}
+.footer .tweets {width:285px;}
+.footer .tweets ul li {padding-right:20px;}
+.footer .contact_form {width:215px;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* all */
+.wraper, .social_list, .footer footer {width:480px;}
+.header {min-height:220px;padding-top:25px;}
+.header .logo, .header .logo:visited {margin:0 auto;}
+.header p {margin-left:190px;}
+.header nav {top:120px;}
+/* Home page */
+.content_block h3, .content_block h4 {padding:0 0 18px 0;}
+.content_block .welcome, .content_block .welcome:after {width:480px;}
+.main_slider, .main_slider ul li {height:175px;}
+.main_slider ul li img {width:100%;}
+.main_slider ul li p {width:100%;}
+.services_list:before {display:none;}
+.services_list ul li {width:190px;padding:175px 70px 40px 0;}
+.services_list ul li .top_bg_wrap {width:180px;}
+.services_list ul li:nth-child(2n+2) {padding-right:0;}
+.prj_block .prj_list {float:left;width:270px;}
+.prj_block .prj_list ul li.center, .prj_block .prj_list ul li.last {display:none;}
+.client_slider .slider_wrap {width:280px;overflow:hidden;height:120px;}
+.client_slider .slider_wrap li img {width:100%;}
+.client_slider .bx-prev, .client_slider .bx-next {left:30px;top:85px;}
+.client_slider .bx-next {left:60px;}
+/* About page */
+.about_block div {margin-right:0;}
+.about_block div img {width:100%;}
+.team_block ul li {width:140px;padding-right:20px;}
+.team_block ul li img {padding:5px;width:130px;}
+.team_block ul li ul li {width:auto;padding-right:5px;}
+.team_block ul li ul li img {width:auto;}
+.testimonials_block {padding-bottom:50px;}
+.testimonials_block .slider_wrap .slider_test {width:323px;padding:45px 47px 3px 110px;}
+/* Contact page */
+.contact_left, .contact_right {float:none;width:480px;}
+.contact_left .contact_form p input {width:180px;}
+.contact_left .contact_form p textarea {width:450px;}
+.contact_info, .drop_line {padding-bottom:20px;}
+.contact_info:before, .drop_line:before {width:480px;}
+/* Portfolio page */
+.submenu ul li {margin:5px 25px 5px 0;}
+.portfolio_list {width:480px;}
+/* Blog page */
+.left_column, .right_column {float:none;width:480px;}
+.post_block a img {width:100%;}
+.recent_comment ul li .desc {width:380px;}
+.recent_comment ul li ul li .desc {width:285px;}
+.leave_comment p input {width:180px;}
+.leave_comment p textarea {width:450px;}
+.right_column .cat_list:before, .right_column .arch_list:before, .right_column .adv_list:before {width:480px;}
+.right_column .arch_list ul li {margin-right:310px;}
+/* footer */
+.footer {padding-bottom:10px;min-height:500px;}
+.footer .flickr {width:260px;padding-right:10px;}
+.footer .tweets {width:205px;}
+.footer .tweets ul li {padding-right:10px;}
+.footer .contact_form {clear:both;width:215px;}
+.copyright .wraper nav {position:static;padding:10px 0;}
+}
+
+@media only screen and (max-width: 479px) {
+/* all */
+.social_list .top_menu {display:none;}
+.wraper, .social_list, .footer footer {width:300px;}
+.header {min-height:120px;padding-top:15px;}
+.header nav {position:static;}
+.header nav ul li {font-size:11px;width:auto;padding-right:10px;}
+.header nav ul li.blog {padding-right:0;}
+.header nav ul li a, .header nav ul li a:visited {padding:15px 0 0 0;width:auto;background:none;}
+/* Home page */
+.content_block h3, .content_block h4 {padding:0 0 18px 0;}
+.content_block .welcome, .content_block .welcome:after {width:300px;}
+.content_block .welcome p {font:bold 41px 'Yanone Kaffeesatz';}
+.content_block .welcome p.deco2 {font:200 20px 'Yanone Kaffeesatz';}
+.content_block .welcome p.deco3 {font:25px 'Yanone Kaffeesatz';}
+.main_slider, .main_slider ul li {height:105px;}
+.main_slider ul li img {width:100%;}
+.main_slider ul li p {width:100%;height:30px;padding:2px 0 5px 10px;}
+.main_slider ul li p span {font-size:16px;}
+.services_list:before {display:none;}
+.services_list ul li {width:190px;padding:175px 0 40px 0;margin:0 auto;float:none;}
+.services_list ul li .top_bg_wrap {width:180px;}
+.prj_block:before {padding-bottom:13px;}
+.prj_block .desc {float:none;width:auto;}
+.prj_block .desc p {padding-bottom:10px;}
+.prj_block .prj_list {float:none;width:auto;}
+.prj_block .prj_list ul li {float:left;padding-bottom:10px;}
+.prj_block .prj_list ul li.center, .prj_block .prj_list ul li.last {display:none;}
+.client_slider:before {padding-bottom:13px;}
+.client_slider .slider_wrap {position:static;width:auto;overflow:hidden;height:120px;padding-top:10px;}
+.client_slider .slider_wrap li img {width:100%;}
+.client_slider .bx-prev, .client_slider .bx-next {left:30px;top:85px;}
+.client_slider .bx-next {left:60px;}
+/* About page */
+.about_block {padding-bottom:13px;}
+.about_block div {margin-right:0;}
+.about_block div img {width:100%;}
+.team_block {padding-bottom:10px;}
+.team_block:before {padding-bottom:13px;}
+.team_block ul li {width:140px;padding-right:20px;}
+.team_block ul li:nth-child(2n+2) {padding-right:0;}
+.team_block ul li img {padding:5px;width:130px;}
+.team_block ul li ul li {width:auto;padding-right:5px;}
+.team_block ul li ul li img {width:auto;}
+.testimonials_block {padding-bottom:30px;}
+.testimonials_block:before {padding-bottom:13px;}
+.testimonials_block .slider_wrap .slider_test {width:270px;padding:55px 17px 3px 10px;}
+.testimonials_block .bx-prev, .testimonials_block .bx-next {right:0;}
+/* Contact page */
+.contact_left, .contact_right {float:none;width:300px;}
+.contact_left .contact_form p input {width:270px;}
+.contact_left .contact_form p input#email2 {margin-top:25px;float:left;}
+.contact_left .contact_form p textarea {width:270px;}
+.contact_info, .drop_line {padding-bottom:20px;}
+.contact_info:before, .drop_line:before {width:300px;}
+/* Portfolio page */
+
+.portfolio_list {width:479px;}
+.submenu ul li {margin:5px 35px 5px 0;}
+/* Blog page */
+.left_column, .right_column {float:none;width:300px;padding-bottom:20px;}
+.post_block:before {padding-bottom:15px;}
+.post_block .date {display:none;}
+.post_block {padding-left:0;}
+.post_block a img {width:100%;}
+.post_block .stat {padding-bottom:20px;}
+.post_block .stat a, .post_block .stat a:visited {top:30px;}
+.nav {padding:30px 0 30px 0;min-height:100px;}
+.nav a, .nav a:visited {width:95px;font:21px 'Yanone Kaffeesatz';top:63px;}
+.nav a:before {top:-12px;}
+.recent_comment ul li .desc {width:200px;}
+.recent_comment ul li ul li .desc {width:110px;}
+.leave_comment p input {width:270px;}
+.leave_comment p input#email2 {margin-top:25px;float:left;}
+.leave_comment p textarea {width:270px;}
+.right_column .cat_list:before, .right_column .arch_list:before, .right_column .adv_list:before {width:300px;}
+.right_column .arch_list ul li {margin-right:110px;}
+/* footer */
+.footer {padding-bottom:10px;min-height:700px;}
+.footer .flickr {width:auto;padding-right:0;}
+.footer .tweets {width:auto;}
+.footer .tweets ul li {padding-right:0;}
+.footer .contact_form {clear:both;width:auto;}
+.copyright .wraper nav {position:static;padding:10px 0;}
+.copyright .wraper nav ul li {font-size:11px;padding-right:5px;}
+.copyright .wraper nav ul li:after {padding-left:5px;}
+.copyright .wraper nav ul li:last-child:after {padding-left:0;}}

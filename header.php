@@ -13,6 +13,11 @@
 <script src="scripts/css3-mediaqueries.js"></script>
 <![endif]-->
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,200' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Cardo" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Ubuntu:bold" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css">
 <?php wp_head();?>   
 </head>
 <body>
@@ -38,17 +43,17 @@
 <div class="wraper">
 
  <header class="header">
-  <a class="logo" href="<?php echo home_url(); ?>"><?php bloginfo('name');?></a>
-  <p><?php bloginfo('description'); ?></p>
-  <nav>
+  <p class="mylogo">#<?php bloginfo('name');?></p>
+  <p class="caption2"><?php bloginfo('description'); ?></p>
+<!--   <nav> -->
   <!-- top menu -->
-   <ul>
-    <li><a href="index.html">home</a></li>
-    <li class="about"><a href="about.html">about us</a></li>
-    <li class="portfolio"><a href="portfolio.html">portfolio</a></li>
-    <li class="blog"><a href="blog.html">blog</a></li>
-    <li class="contact"><a href="contact.html">contact</a></li>
-   </ul>
+<!--    <ul> -->
+<!--     <li><a href="index.html">home</a></li> -->
+<!--     <li class="about"><a href="about.html">about us</a></li> -->
+<!--     <li class="portfolio"><a href="portfolio.html">portfolio</a></li> -->
+<!--     <li class="blog"><a href="blog.html">blog</a></li> -->
+<!--     <li class="contact"><a href="contact.html">contact</a></li> -->
+<!--    </ul> -->
   <!-- /top menu -->
-  </nav>
+<!--   </nav> -->
  </header>

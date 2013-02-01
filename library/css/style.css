@@ -1,5 +1,5 @@
 /* CSS Document */
-body {height:100%;font:13px Arial, Tahoma, Verdana, Sans-Serif;color:#808080;background:#eaeaea url(../images/body.jpg);}
+body {height:100%;font:16px Helvetica, Arial, sans-serif;color:#808080;background:#eaeaea url(../images/body.jpg);}
 div, html, body, p, ul, ol, li, a, form, img, table, td, h1, h2, h3, h4, h5, h6, blockquote, header, section, footer, aside, nav, article, figure, figcaption {margin:0;padding:0;} 
 header, section, footer, aside, nav, article, figure, figcaption {display: block;}
 table {border-collapse:collapse;}
@@ -34,8 +34,8 @@ input:focus, textarea:focus {outline:none;}
 /* header */ 
 .header {position:relative;min-height:160px;padding-top:90px;}
 .header .logo, .header .logo:visited {text-indent:-999em;cursor:pointer;background:url(../images/logo.gif) no-repeat;display:block;width:230px;height:67px;}
-.header .mylogo {color:#3d7ba5;font-family: 'Arvo', Georgia, Times, serif;
-    font-size: 65px;
+.header .mylogo {color:#3d7ba5;/* font-family: 'Arvo', Georgia, Times, serif; */
+    font-size: 80px;
     line-height: 75px;}
 .header .caption1 {font-size:15px;color:#909090;margin:-14px 0 0 57px;}
 .header .caption2 {font-size:15px;color:#e38964;margin:0px 0 0 20px;
@@ -59,8 +59,8 @@ font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
 
 /* content */
 /* .content_block h3, .content_block h4 {font:28px 'Yanone Kaffeesatz';color:#696969;padding:18px 0;text-transform:uppercase;} */
-.content_block h3 {font:24px 'Ubuntu';color:#3d7ba5;padding:16px 0;text-transform:none;}
-.content_block h4{}
+.content_block h3 {font-size:20px; line-height:1em;color:#3d7ba5;padding:16px 0;text-transform:none;}
+.content_block h4{font-size:32px; line-height:1em;color:#3d7ba5;padding:16px 0;text-transform:none;}
 
 	/* welcome */
 .content_block .welcome {background:url(../images/line2.gif) repeat-x;width:710px;margin:0 auto 60px auto;text-align:center;}
@@ -278,18 +278,18 @@ font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
 .post_block:before {content:'';height:0;display:block;border-top:1px solid #fff;padding-bottom:45px;}
 .post_block:first-child {border-top:none;padding-top:13px;}
 .post_block:first-child:before {display:none;}
-.post_block .date {position:absolute;top:45px;left:0;width:94px;height:84px;padding-top:10px;background:url(../images/sprite.gif) 0 -865px no-repeat;text-align:center;color:#fff;font:20px/20px 'Yanone Kaffeesatz';}
+.post_block .date {position:absolute;top:45px;left:0;width:94px;height:84px;padding-top:12px;background:url(../images/sprite.gif) 0 -865px no-repeat;text-align:center;color:#fff;font-size:15px;}
 .post_block:first-child .date {top:10px;}
 .post_block .date strong {display:block;text-align:center;font:bold 35px/35px 'Yanone Kaffeesatz';margin-top:-5px;}
 .post_block .img {border:1px solid #d3d3d3;background:#fff;padding:7px;font-size:0;line-height:0;}
 .post_block .img img {-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear;}
 .post_block .img:hover img {opacity:0.8;}
 .post_block p {padding:8px 0 10px 0;
-				line-height:1.5em;
+				line-height:26px;
 				/* font-family: 'Ubuntu', Helvetica, Arial, sans-serif; */
 				/* 'Ubuntu', Helvetica, Arial, sans-serif; */
 				/* 'Josefin Sans', Helvetica, Arial, sans-serif; */
-				font-size:14px;
+				font-size:16px;
 				color:#666;
 				}
 .post_block p em {color:#e38964;}

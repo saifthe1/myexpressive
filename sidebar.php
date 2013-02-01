@@ -1,7 +1,7 @@
 <aside class="right_column">
    <!-- CATEGORIES -->
    <div class="cat_list">
-    <h3><span>categories</span></h3>
+    <h3><span>Categories</span></h3>
     <ul>
      <li><a href="#">Web Design</a></li>
      <li class="web-development active"><a href="#">Development</a></li>
@@ -15,7 +15,7 @@
    <!-- /CATEGORIES -->
    <!-- ARCHIVES -->
    <div class="arch_list">
-    <h3><span>archives</span></h3>
+    <h3><span>Archives</span></h3>
     <ul>
      <li><a href="#">January</a></li>
      <li><a href="#">February</a></li>
@@ -29,7 +29,7 @@
    <!-- /ARCHIVES -->
    <!-- ADVERTISMENT -->
    <div class="adv_list">
-    <h3><span>advertisment</span></h3>
+    <h3><span>Advertisment</span></h3>
     <ul>
      <li><a href="#"><img src="<?php bloginfo('template_url');?>/library/images/advertisment/adv.jpg" alt="" /></a></li>
     </ul>

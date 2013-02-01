@@ -2,70 +2,19 @@
  <div class="content_block">
   <!-- about -->
   <div class="about_block">
-   <h3>about expressive theme</h3>
-   <div><img src="images/img4.jpg" alt="" /></div>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor eros, suscipit nec interdum ut, semper pulvinar tortor. Fusce id enim sapien, non lacinia urna. Aliquam ut purus nec enim bibendum ornare a vel lorem.eget vitae diam. Nullam tempus orci eget metuauctor rhoncus. Morbi rhoncus sem nec magna porta auctor. Maecenas convallis</p>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor eros, suscipit nec interdum ut, semper pulvinar tortor. Fusce id enim sapien, non lacinia urna. Aliquam ut purus nec enim bibendum ornare a vel lorem.eget vitae diam. Nullam tempus orci eget metuauctor rhoncus. Morbi rhoncus sem nec magna porta auctor. Maecenas convallis</p>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor eros, suscipit nec interdum ut, semper pulvinar tortor. Fusce id enim sapien, non lacinia urna. Aliquam ut purus nec enim bibendum ornare a vel lorem.eget vitae diam. Nullam tempus orci eget metuauctor rhoncus. Morbi rhoncus sem nec magna porta auctor. Maecenas convallis</p>
+   <h3>About the blog</h3>
+   <div><img src="<?php bloginfo(template_url);?>/library/images/img4.jpg" alt="" /></div>
+   <p>Parallel computing isnt a new word in computing its been probably for more than five decades. Parallel computers were mostly part of research groups or government organisations used for High Performance computing (HPC) to crunch numbers to perform several thousand calculations to be run simultaneously in order to reduce execution timings to achieve faster results.</p>
+   <p>Ever since the evolution of multicore CPUs, operating systems started exploiting them by distributing processing overheads between multiple cores available on CPUs. Moreover thanks to contribution of reasonable CPU prices, parallel computing has entered into mainstream computing market where a parallel computer could be made from couple of CPUs into a desktop workstation to a cluster on site.</p>
+   <p>Traditionally parallel computing is applied into the field of HPC however due to amazing innovations such as General Purpose Graphics Processing Units (GPGPUs) by NVidia with the introduction of CUDA and OpenCL by Khronos Group for Heterogeneous architectures and last but not the least distributed computing framework Apache Hadoop parallel computing has become realistic and affordable.</p>
+   <p>Precisely this blog is all about HPC, Distributed computing, GPGPUs, parallel programming and possibly everything about parallel computing.</p>
+   <h3>Bits about me</h3>
+  <p>HPC Application Developer, Technology enthusiast and Traveller. Currently I am working at <a href="http://www.strath.ac.uk/" target="_blank">university of Strathclyde</a>, Glasgow in MultiScaleFLOWS group at department of Mechanical engineering. If you are interested in my work please feel free to visit my profile on linkedin.</p>
   </div>
+  
   <!-- /about -->
   <!-- team -->
-  <div class="team_block">
-   <h3>our team</h3>
-   <ul>
-    <li>
-     <img src="images/team/avatar.jpg" alt="" />
-     <p>JOHN DOE</p>
-     <p><span>Project Director / Designer</span></p>
-     <ul>
-      <li><a href="#"><img src="images/facebook2.gif" alt="" /></a></li>
-      <li><a href="#"><img src="images/tweeter2.gif" alt="" /></a></li>
-      <li><a href="#"><img src="images/world2.gif" alt="" /></a></li>
-     </ul>
-    </li>
-    <li>
-     <img src="images/team/avatar.jpg" alt="" />
-     <p>JOHN DOE</p>
-     <p><span>Project Director / Designer</span></p>
-     <ul>
-      <li><a href="#"><img src="images/facebook2.gif" alt="" /></a></li>
-      <li><a href="#"><img src="images/tweeter2.gif" alt="" /></a></li>
-      <li><a href="#"><img src="images/world2.gif" alt="" /></a></li>
-     </ul>
-    </li>
-    <li>
-     <img src="images/team/avatar.jpg" alt="" />
-     <p>JOHN DOE</p>
-     <p><span>Project Director / Designer</span></p>
-     <ul>
-      <li><a href="#"><img src="images/facebook2.gif" alt="" /></a></li>
-      <li><a href="#"><img src="images/tweeter2.gif" alt="" /></a></li>
-      <li><a href="#"><img src="images/world2.gif" alt="" /></a></li>
-     </ul>
-    </li>
-    <li>
-     <img src="images/team/avatar.jpg" alt="" />
-     <p>JOHN DOE</p>
-     <p><span>Project Director / Designer</span></p>
-     <ul>
-      <li><a href="#"><img src="images/facebook2.gif" alt="" /></a></li>
-      <li><a href="#"><img src="images/tweeter2.gif" alt="" /></a></li>
-      <li><a href="#"><img src="images/world2.gif" alt="" /></a></li>
-     </ul>
-    </li>
-    <li>
-     <img src="images/team/avatar.jpg" alt="" />
-     <p>JOHN DOE</p>
-     <p><span>Project Director / Designer</span></p>
-     <ul>
-      <li><a href="#"><img src="images/facebook2.gif" alt="" /></a></li>
-      <li><a href="#"><img src="images/tweeter2.gif" alt="" /></a></li>
-      <li><a href="#"><img src="images/world2.gif" alt="" /></a></li>
-     </ul>
-    </li>
-   </ul>
-  </div>
-  <!-- /team -->
+  
   <!-- testimonials -->
   <div class="testimonials_block">
    <h3>client testimonials</h3>
@@ -74,15 +23,8 @@
 	<ul class="testimonials_slider">
 	 <li>
       <blockquote>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor eros, suscipit nec interdum ut, semper pulvinar tortor. Fusce id enim sapien, non lacinia urna.</p>
-       <p class="author">John Doe</p>
-      </blockquote>
-	 </li>
-	 <li>
-      <blockquote>
-       <p>Ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor eros, suscipit nec interdum ut, semper pulvinar tortor. Fusce id enim sapien, non lacinia urna.</p>
-       <p>Ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor eros, suscipit nec interdum ut, semper pulvinar tortor. Fusce id enim sapien, non lacinia urna.</p>
-       <p class="author">Doe John</p>
+       <p>The best richness is the richness of the soul. </p>
+       <p class="author">Ð Prophet Muhammad (PBUH)</p>
       </blockquote>
 	 </li>
 	</ul>

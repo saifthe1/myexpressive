@@ -16,8 +16,10 @@
    <div class="contact_form">
     <h3>send us a message</h3>
     <form method="post" action="#">
-     <p><input type="text" value="Name" id="name2" /><input type="text" value="E-mail" id="email2" /></p>
-     <p><textarea id="message2">Comments</textarea></p>
+     <p>
+     	<input type="text" value="Name" id="name2" name="txtname" />
+     	<input type="text" value="E-mail" id="email2" name="txtemail" /></p>
+     <p><textarea id="message2" name="txtcomment">Comments</textarea></p>
      <p class="submit"><button>Submit</button></p>
     </form>
    </div>
@@ -29,9 +31,7 @@
    <div class="contact_info">
     <h3><span>contact info</span></h3>
     <ul>
-     <li><a href="mailto:us@scripteers.com">us@scripteers.com</a></li>
-     <li class="phone">703-555-5555</li>
-     <li class="home">123, Main Street, Washington, DC</li>
+     <li><a href="mailto:hello@saifmulla.com">hello@saifmulla.com</a></li>
     </ul>
    </div>
    <!-- /contact info -->

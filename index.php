@@ -12,7 +12,7 @@
     <div class="img"><a href="#">
     	<img src="<?php bloginfo(template_url); ?>/library/images/blog/img8.jpg" alt="" />
     </a></div>
-    <h3><?php the_title();?></h3>
+    <h4><?php the_title();?></h4>
     <p><?php the_content(); ?></p>
     <div class="stat"><span><?php the_author() ?></span><span class="talk">70</span><span class="eye">117</span><span class="heart">25</span><a href="<?php the_permalink();?>">Read More</a></div>
    </div>

@@ -2,14 +2,25 @@
    <!-- CATEGORIES -->
    <div class="cat_list">
     <h3><span>Categories</span></h3>
+<!--     <ul> -->
+<!--      <li><a href="#">Web Design</a></li> -->
+<!--      <li class="web-development active"><a href="#">Development</a></li> -->
+<!--      <li class="link-building"><a href="#">Link Building</a></li> -->
+<!--      <li class="optimization"><a href="#">Optimization</a></li> -->
+<!--      <li class="photography"><a href="#">Photography</a></li> -->
+<!--      <li class="graphic-design"><a href="#">Graphic Design</a></li> -->
+<!--      <li class="illustration"><a href="#">Illustration</a></li> -->
+<!--     </ul> -->
     <ul>
-     <li><a href="#">Web Design</a></li>
-     <li class="web-development active"><a href="#">Development</a></li>
-     <li class="link-building"><a href="#">Link Building</a></li>
-     <li class="optimization"><a href="#">Optimization</a></li>
-     <li class="photography"><a href="#">Photography</a></li>
-     <li class="graphic-design"><a href="#">Graphic Design</a></li>
-     <li class="illustration"><a href="#">Illustration</a></li>
+    <?php 
+    $categories = get_categories();
+    foreach($categories as $category) {
+    	echo '<li class="'.strtolower($category->name).'">
+    		<a href="'.get_category_link( $category->term_id ).'">'.$category->name.'</a>
+     		</li>';
+    }
+    
+    ?>
     </ul>
    </div>
    <!-- /CATEGORIES -->
@@ -27,12 +38,5 @@
     </ul>
    </div>
    <!-- /ARCHIVES -->
-   <!-- ADVERTISMENT -->
-   <div class="adv_list">
-    <h3><span>Advertisment</span></h3>
-    <ul>
-     <li><a href="#"><img src="<?php bloginfo('template_url');?>/library/images/advertisment/adv.jpg" alt="" /></a></li>
-    </ul>
-   </div>
-   <!-- /ADVERTISMENT -->
+  
   </aside>

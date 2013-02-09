@@ -15,7 +15,7 @@
    <!-- contact form -->
    <div class="contact_form">
     <h3>send us a message</h3>
-    <form method="post" action="#">
+    <form method="post" action="<?php the_permalink(); ?>" id="frmcontact">
      <p>
      	<input type="text" value="Name" id="name2" name="txtname" />
      	<input type="text" value="E-mail" id="email2" name="txtemail" /></p>

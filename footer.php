@@ -25,18 +25,6 @@
    </ul>
   </div>
  <!-- /LATEST TWEETS -->
-  
- <!-- GET IN TOUCH -->
-  <div class="contact_form">
-   <h3>get in touch</h3>
-   <form method="post" action="#">
-    <p><input type="text" value="Your Name" id="name" /></p>
-    <p><input type="text" value="Your Email" id="email" /></p>
-    <p><textarea id="message">Your Message</textarea></p>
-    <p class="submit"><button>Submit</button></p>
-   </form>
-  </div>
- <!-- /GET IN TOUCH -->
  
  </footer>
 </div>

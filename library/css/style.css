@@ -365,7 +365,7 @@ input:focus, textarea:focus {outline:none;}
 .right_column .cat_list ul li.graphic-design.active:before, .right_column .cat_list ul li.graphic-design:hover:before {background-position:0 -685px;}
 .right_column .cat_list ul li.travel:before {background-position:-167px -613px;}
 .right_column .cat_list ul li.travel.active:before, .right_column .cat_list ul li.travel:hover:before {background-position:-167px -685px;}
-.right_column .cat_list ul li a, .right_column .cat_list ul li a:visited {color:#555;}
+.right_column .cat_list ul li a, .right_column .cat_list ul li a:visited {color:#666;}
 .right_column .cat_list ul li.active a, .right_column .cat_list ul li.active a:visited, .right_column .cat_list ul li a:hover {color:#E38964;text-decoration:none;border-bottom:1px dotted;}
 		/* ARCHIVES */
 .right_column .arch_list {position:relative;padding-bottom:35px;}
@@ -373,6 +373,13 @@ input:focus, textarea:focus {outline:none;}
 .right_column .arch_list ul li {margin-right:120px;font-size:15px;background:url(../images/sprite.gif) 15px -816px no-repeat;padding:6px 0 6px 44px;}
 .right_column .arch_list ul li a, .right_column .arch_list ul li a:visited {color:#949494;}
 .right_column .arch_list ul li a:hover {color:#696969;}
+
+/* other posts */
+.right_column .other_list {position:relative;padding-bottom:35px;}
+.right_column .other_list:before {content:'';display:block;background:url(../images/line2.gif) 0 bottom repeat-x;height:7px;width:297px;position:absolute;top:15px;left:0;}
+.right_column .other_list ul li {margin-right:20px;font-size:15px;padding:6px 0 6px 0px;}
+.right_column .other_list ul li a, .right_column .other_list ul li a:visited {color:#E38964;text-decoration:none;border-bottom:1px dotted;}
+.right_column .other_list ul li a:hover {color:#45bcd2;}
 		/* ADVERTISMENT */
 .right_column .adv_list {position:relative;}
 .right_column .adv_list:before {content:'';display:block;background:url(../images/line2.gif) 0 bottom repeat-x;height:7px;width:297px;position:absolute;top:15px;left:0;}
@@ -418,7 +425,7 @@ p.tagslist {padding:5px 0;margin:0;}
  margin-right:10px;font-size:10.5px;font-weight:bold;line-height:20px;}
 a.more-link{color:#E38964;}
 a.more-link:hover{border-bottom:1px dotted;text-decoration:none;}
-
+span.powered{float:right;}
 /*.tagslist a:before{
 		content:"";
 		float:left;

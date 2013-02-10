@@ -34,3 +34,14 @@ $(function() {
     	speed : 1000
 	});	
 }); 
+
+$(document).ready(function(){
+	   $twurl = "https://api.twitter.com/1/statuses/user_timeline.json?include_entities=1&include_rts=true&screen_name=saifthe1&count=3&callback=?";
+	   $.getJSON($twurl,function(data){
+		   var html="";
+		   for($i=0;$i<$(data).size();$i++){
+		   		var h ='<li><a href="https://twitter.com/saifthe1" target="_blank">@'+$(data)[$i].user.screen_name+'&nbsp;</a>'+$(data)[$i].text+'</li>';
+		   		$("#tweets").append(h);
+	   		}
+		   });
+	   });

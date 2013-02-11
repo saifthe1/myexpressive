@@ -27,8 +27,6 @@
   <ul class="social_icons">
    <li><a href="https://twitter.com/saifthe1" target="_blank">tweeter</a></li>
    <li class="facebook"><a href="https://www.facebook.com/saif.mulla.37" target="_blank">facebook</a></li>
-   <li class="skype"><a href="#">skype</a></li>
-   <li class="world"><a href="#">world</a></li>
   </ul>
   <!-- /social icons -->
   <!-- top left menu -->
@@ -41,19 +39,12 @@
 </div>
 
 <div class="wraper">
+<!--   <nav> -->
+  <!-- top menu -->
 
  <header class="header">
   <p class="mylogo">#<?php bloginfo('name');?></p>
   <p class="caption2"><?php bloginfo('description'); ?></p>
-<!--   <nav> -->
-  <!-- top menu -->
-<!--    <ul> -->
-<!--     <li><a href="index.html">home</a></li> -->
-<!--     <li class="about"><a href="about.html">about us</a></li> -->
-<!--     <li class="portfolio"><a href="portfolio.html">portfolio</a></li> -->
-<!--     <li class="blog"><a href="blog.html">blog</a></li> -->
-<!--     <li class="contact"><a href="contact.html">contact</a></li> -->
-<!--    </ul> -->
   <!-- /top menu -->
 <!--   </nav> -->
  </header>

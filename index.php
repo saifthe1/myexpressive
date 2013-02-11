@@ -10,7 +10,7 @@
     	<strong><?php the_time('j');?></strong><?php the_time('Y');?>
     </div>
     
-    <h1><?php the_title();?></h1>
+    <h1><a class="header-link" href="<?php the_permalink();?>" title="Click to read more..."><?php the_title();?></a></h1>
     <div class="stat"><span><?php the_author() ?></span>
 	    <span class="talk">
 	    <?php
@@ -30,9 +30,9 @@
   <?php if (function_exists('bones_page_navi')) { ?>
 					            <?php bones_page_navi(); ?>
 					        <?php } else { ?>
-					             <div class="nav">
-    <span>&nbsp;</span><a class="lposts" href="#">Newer Posts</a><a href="#">Older Posts</a>
-   </div>
+<!-- 					             <div class="nav"> -->
+<!--     <span>&nbsp;</span><a class="lposts" href="#">Newer Posts</a><a href="#">Older Posts</a> -->
+<!--    </div> -->
 					        <?php } ?>		
   
 <?php else: ?>
